@@ -24,7 +24,7 @@ public static class BotTargeting
 
         if (card.cardType == CardType.HealCard || card.cardType == CardType.DefenceCard)
         {
-            targetChar = ChooseMostDamagedAlly(enemies);
+            targetChar = ChooseMostDamagedAlly(allies);
             return targetChar;
         }
         return null;
